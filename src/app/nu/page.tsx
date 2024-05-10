@@ -18,7 +18,7 @@ const Page = () => {
     }, 1000);
   });
   return (
-    <div className={styles.TelegraafPage}>
+    <div className={styles.NuPage}>
       {loggedOut && <WebComponent />}
       <Suspense fallback={<div>Loading...</div>}>
         {loggedIn && (
