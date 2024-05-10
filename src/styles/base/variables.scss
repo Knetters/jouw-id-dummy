@@ -1,0 +1,49 @@
+/* Common */
+$v-content-width: 105.6rem;
+$v-content-spacing-mobile: 5.5rem;
+$v-content-spacing-desktop: 13rem;
+$mobile-content-width: 37rem;
+
+/*  Z-indices */
+$z-zero: 0;
+$z-nav-main: 10;
+
+/* Base colors */
+$c-white-rose: #f6f4f4;
+$c-grey: #ededed;
+$c-pink-dark: #ef515d;
+$c-pink: #f4717b;
+$c-pink-50: #f5b2b7;
+$c-pink-6: #f5e5e6;
+$c-blue: #02006f;
+$c-blue-50: #8283b2;
+$c-blue-6: #e7e5ec;
+$c-white: #fff;
+$c-black: #000;
+$c-dark-grey: #707070;
+$c-green: #0eae00;
+
+/* Shadows */
+$bs-input: 0 0 9px 0 #0f0f0f1a;
+
+/* Theme colors */
+$c-background-dark: $c-blue;
+$c-background-light: $c-white-rose;
+$c-text-on-light: $c-blue;
+$c-text-on-dark: $c-white-rose;
+$c-button-background: $c-pink;
+$c-button-hover: $c-pink-50;
+$c-background-card: linear-gradient(113.29deg, $c-pink 0%, $c-blue 65.31%);
+$c-background-card-hover: linear-gradient(
+    113.29deg,
+    $c-pink 51.73%,
+    $c-blue 100.7%
+);
+
+/* Graphic waves */
+$bg-wave-centered-blue: url('data:image/svg+xml,%3Csvg viewBox="0 0 1280 72" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M0 46.8174C192.797 16.8716 410.795 0 641.628 0C871.163 0 1088.01 16.6823 1280 46.3133V72H0V46.8174Z" fill="%2302006f"/%3E%3C/svg%3E');
+$bg-wave-centered-white: url('data:image/svg+xml,%3Csvg viewBox="0 0 1280 72" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M0 46.8174C192.797 16.8716 410.795 0 641.628 0C871.163 0 1088.01 16.6823 1280 46.3133V72H0V46.8174Z" fill="%23FFFFFF"/%3E%3C/svg%3E');
+$bg-wave-centered-pink: url('data:image/svg+xml,%3Csvg viewBox="0 0 1280 72" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M0 46.8174C192.797 16.8716 410.795 0 641.628 0C871.163 0 1088.01 16.6823 1280 46.3133V72H0V46.8174Z" fill="%23f5b2b7"/%3E%3C/svg%3E');
+$bg-wave-ltr-white: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1280 72"%3E%3Cpath fill="%23fff" d="M0 13s278.069 29.248 721.655 0C1165.24-16.25 1280 13 1280 13v59H0V13Z"/%3E%3C/svg%3E');
+$bg-wave-ltr-blue: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1280 72"%3E%3Cpath fill="%2302006f" d="M0 13s278.069 29.248 721.655 0C1165.24-16.25 1280 13 1280 13v59H0V13Z"/%3E%3C/svg%3E');
+$bg-wave-ltr-pink: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1280 72"%3E%3Cpath fill="%23f5b2b7" d="M0 13s278.069 29.248 721.655 0C1165.24-16.25 1280 13 1280 13v59H0V13Z"/%3E%3C/svg%3E');

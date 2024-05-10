@@ -1,0 +1,95 @@
+// Headline 1
+h1 {
+    margin-bottom: 1.6rem;
+
+    font-family: var(--ff-solway);
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+// Headline 2
+h2 {
+    margin-bottom: 1.6rem;
+
+    font-family: var(--ff-solway);
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+// Headline 3
+h3 {
+    margin-bottom: 1.6rem;
+    font-family: var(--ff-solway);
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+// Section header
+h4 {
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+// Subhead
+h5 {
+    margin-bottom: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+// Subhead small
+h6 {
+    margin-bottom: 1.6rem;
+    font-family: var(--ff-solway);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+// Body light
+p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+// Body book
+strong {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+// Body small
+small {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+a {
+    font-size: 1.6rem;
+}
+
+button {
+    font-family: var(--ff-solway);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+body.is-blue {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    strong,
+    small,
+    a,
+    button {
+        color: $c-white;
+    }
+}

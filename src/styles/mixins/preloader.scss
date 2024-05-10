@@ -1,0 +1,24 @@
+@mixin preloader(
+    $background-color: $c-alto-dark,
+    $background-color-loaded: transparent
+) {
+    background-color: $background-color;
+    filter: brightness(85%);
+    transition: background-color 240ms ease-out 1000ms;
+
+    img {
+        opacity: 0;
+        transition: opacity 240ms ease-out 100ms;
+    }
+
+    .has-loaded &,
+    &.has-loaded {
+        background-color: $background-color-loaded;
+        background-image: none;
+        filter: brightness(100%);
+
+        img {
+            opacity: 1;
+        }
+    }
+}

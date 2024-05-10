@@ -1,0 +1,70 @@
+.Button {
+    cursor: pointer;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    width: fit-content;
+    min-width: min(33.6rem, calc(var(--viewport-width) - 6.4rem));
+    padding: 1.8rem 3.6rem;
+
+    font-family: var(--ff-solway);
+    text-align: center;
+
+    border-radius: 6px;
+
+    transition:
+        background-color 0.2s ease-in-out,
+        color 0.2s ease-in-out,
+        border 0.2s ease-in-out;
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+
+    svg {
+        font-size: 2.4rem;
+    }
+}
+
+.Button.Button--primary {
+    color: $c-white;
+    background-color: $c-pink;
+    border: 1.5px solid $c-pink;
+
+    &:disabled {
+        background-color: $c-pink-50;
+        border: 1.5px solid $c-pink-50;
+    }
+
+    &:hover:not(:disabled) {
+        background-color: $c-pink-dark;
+        border: 1.5px solid $c-pink-dark;
+    }
+}
+
+.Button.Button--secondary {
+    color: $c-blue;
+    background-color: transparent;
+    border: 1.5px solid $c-pink;
+
+    &:disabled {
+        color: $c-blue-50;
+        border: 1.5px solid $c-pink-50;
+    }
+
+    &:hover:not(:disabled) {
+        background-color: $c-pink-50;
+    }
+}
+
+.Button.Button--small {
+    min-width: auto;
+    padding: 1rem 1.6rem;
+}
+
+.Button.Button--fullWidth {
+    width: 100%;
+}

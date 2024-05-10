@@ -1,0 +1,35 @@
+.RecommendationContent {
+    // border-top: 2px solid $c-pink-dark;
+    border-bottom: 2px solid $c-pink-dark;
+    margin: 3rem 0 4rem 0;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.RecommendationsList {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.Logo {
+    height: auto;
+    font-size: 10rem;
+    margin-bottom: 2rem;
+}
+
+.RecommendationHeading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.RecommendationItem {
+    width: calc(49% - 2rem);
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}

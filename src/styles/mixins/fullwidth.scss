@@ -1,0 +1,16 @@
+@mixin fullwidth {
+    width: var(--viewport-width);
+    margin-left: calc(-1 * (var(--viewport-width) - 100%) / 2);
+}
+
+@mixin contentwidth {
+    @include large {
+        padding: 0 3.2rem;
+    }
+
+    box-sizing: content-box;
+    width: 100%;
+    max-width: $v-content-width;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}

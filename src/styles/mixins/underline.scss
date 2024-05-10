@@ -1,0 +1,27 @@
+/* stylelint-disable CssSyntaxError */
+@mixin underline($color: $c-blue, $target: "a") {
+    @include large {
+        #{$target} {
+            margin-bottom: -3px;
+            padding-bottom: 3px;
+
+            background: linear-gradient(to right, transparent, transparent),
+                linear-gradient(to right, $color, $color);
+            background-repeat: no-repeat;
+            background-position:
+                100% 100%,
+                0 100%;
+            background-size:
+                100% 1.5px,
+                0 1.5px;
+
+            transition: background-size 0.4s;
+        }
+
+        #{$target}:hover {
+            background-size:
+                0 1.5px,
+                100% 1.5px;
+        }
+    }
+}

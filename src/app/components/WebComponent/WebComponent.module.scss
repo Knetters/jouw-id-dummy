@@ -1,0 +1,79 @@
+.WebComponent {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    height: 10rem;
+    margin-bottom: 1rem;
+
+    background-color: $c-white-rose;
+    border: 1px solid $c-blue;
+    border-radius: 5px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 0 2rem;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem 2rem 1rem 4rem;
+    border-radius: 3rem/20 5px 5px;
+    position: relative;
+    overflow: hidden;
+    
+    * {
+        z-index: 1;
+    }
+}
+
+.action::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 100%;
+    transform: scale(4);
+    z-index: 0;
+    transform-origin: left center;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 2.2rem;
+    color: $c-pink;
+}
+
+.subtitle {
+    margin-bottom: 0;
+    font-size: clamp(1.6rem, 2vw, 3rem);
+}
+
+.logo {
+    height: auto;
+    font-size: 7.2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.button {
+    min-width: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: $c-pink;
+}
