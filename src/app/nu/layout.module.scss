@@ -81,3 +81,18 @@
     padding-bottom: 4rem;
     border-bottom: 1px solid #ededed;
 }
+
+@media only screen and (max-width: 600px) {
+    .Content {
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .MainContent {
+        width: 100%;
+    }
+
+    .NuLayout {
+        padding: 0rem 2rem;
+    }
+  }

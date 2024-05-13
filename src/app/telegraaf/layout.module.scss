@@ -87,3 +87,22 @@
 .Footer {
     margin-top: 10rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .ArticlesContainer {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .FeaturedArticles {
+        width: 100%;
+    }
+    
+    .LatestArticleList {
+        width: 100%;
+    }
+
+    .Footer {
+        display: none;
+    }
+  }
