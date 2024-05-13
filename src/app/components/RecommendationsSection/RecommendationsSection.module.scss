@@ -35,7 +35,7 @@
     margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .RecommendationContent {
         margin: 1rem 0 2rem 0;
         padding: 1rem 0rem 0rem 0rem;
@@ -54,8 +54,14 @@
     }
 
     .RecommendationItem {
-        width: calc(95% - 2rem);
+        width: calc(49% - 2rem);
         flex: 0 0 auto;
         scroll-snap-align: start;
     }
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .RecommendationItem {
+        width: calc(95% - 2rem);
+    }
+}
