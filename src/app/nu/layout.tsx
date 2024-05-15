@@ -14,7 +14,16 @@ export default function IntegrationExampleLayout({
   return (
     <div className={styles.NuLayout}>
       <header className={styles.Header}>
-        <img src="../img/nu-nl-header.png" alt="" />
+        <img
+          className={styles.desktopHeader}
+          src="../img/nu-nl-header.png"
+          alt=""
+        />
+        <img
+          className={styles.mobileHeader}
+          src="../img/nu-nl-mobile-header.png"
+          alt=""
+        />
       </header>
       <div className={styles.Content}>
         <div className={styles.MainContent}>
@@ -70,7 +79,11 @@ export default function IntegrationExampleLayout({
           <p className={styles.MoreButton}>Meer Algemeen</p>
         </div>
         <div className={styles.SideContent}>
-          <img src="../img/nu-nl-sidebar-header.png" alt="" />
+          <img
+            className={styles.desktopHeader}
+            src="../img/nu-nl-sidebar-header.png"
+            alt=""
+          />
           <img
             className={styles.MostRead}
             src="../img/nu-nl-most-read.png"

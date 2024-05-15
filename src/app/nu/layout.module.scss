@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.mobileHeader {
+    display: none;
+}
+
 .Content {
     max-width: 975px;
     margin-left: auto;
@@ -94,5 +98,21 @@
 
     .NuLayout {
         padding: 0rem 2rem;
+    }
+
+    .desktopHeader {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
+    }
+
+    .desktopHeader {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
     }
   }

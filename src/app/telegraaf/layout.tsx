@@ -14,7 +14,16 @@ export default function IntegrationExampleLayout({
   return (
     <div className={styles.TelegraafLayout}>
       <div className={styles.Content}>
-        <img src="../img/telegraaf-header.png" alt="" />
+        <img
+          className={styles.desktopHeader}
+          src="../img/telegraaf-header.png"
+          alt=""
+        />
+        <img
+          className={styles.mobileHeader}
+          src="../img/telegraaf-mobile-header.png"
+          alt=""
+        />
 
         <section className={styles.ArticlesContainer}>
           <div className={styles.FeaturedArticles}>

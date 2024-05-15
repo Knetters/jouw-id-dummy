@@ -3,6 +3,10 @@
     border-top: .5rem solid #27509a;
 }
 
+.mobileHeader {
+    display: none;
+}
+
 .Content {
     max-width: 1300px;
     margin-left: auto;
@@ -104,5 +108,13 @@
 
     .Footer {
         display: none;
+    }
+    
+    .desktopHeader {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
     }
 }
