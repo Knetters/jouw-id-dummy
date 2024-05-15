@@ -7,8 +7,8 @@ import RecommendationsSection from "@/components/RecommendationsSection/Recommen
 import { Recommendation } from "@/interfaces/Recommendation";
 import styles from "./page.module.scss";
 
-const loggedIn = false;
-const loggedOut = true;
+const loggedIn = true;
+const loggedOut = false;
 
 const Page = () => {
   // fake async fetching of recommendations.

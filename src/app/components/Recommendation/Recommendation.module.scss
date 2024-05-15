@@ -8,6 +8,10 @@
     height: 100%; /* Set height to 100% */
 }
 
+.Recommendation:hover h2 {
+    text-decoration: underline;
+}
+
 .Figure {
     width: 100%;
     overflow: hidden;
